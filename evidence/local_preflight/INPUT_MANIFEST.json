@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "localInputsComplete": true,
+  "cloudInputsAvailable": "NOT VERIFIED",
+  "missing": [],
+  "goldenCases": 26,
+  "newGeneratedGoldenStates": 0,
+  "files": {
+    "rc11/QA_REPORT.md": {
+      "bytes": 4574,
+      "SHA256": "d11cf7933a5d790c3099ce616a328215fa47c01107c55a3fa612e0c1eab5bcda",
+      "sourceSHA256": "d11cf7933a5d790c3099ce616a328215fa47c01107c55a3fa612e0c1eab5bcda",
+      "identical": true
+    },
+    "rc11/FEATURE_CONTRACT.json": {
+      "bytes": 2308212,
+      "SHA256": "d4a6e0caf2777dec2903eb6f3341139f1805b1cd9ed4833f13e2d30cb54e04ee",
+      "sourceSHA256": "d4a6e0caf2777dec2903eb6f3341139f1805b1cd9ed4833f13e2d30cb54e04ee",
+      "identical": true
+    },
+    "rc11/OBSERVATION_PATCHES.diff": {
+      "bytes": 2163,
+      "SHA256": "9197337e06a7923dd314dc93abb1c8e9096bd2cf0d3fd0387800f7b40d376393",
+      "sourceSHA256": "9197337e06a7923dd314dc93abb1c8e9096bd2cf0d3fd0387800f7b40d376393",
+      "identical": true
+    },
+    "rc11/GOLDEN_PUBLIC_CASES.json": {
+      "bytes": 2297313,
+      "SHA256": "ac63331893208cf61b0af8ec0029888bccac38cc37e7291d65be8205f6548d24",
+      "sourceSHA256": "ac63331893208cf61b0af8ec0029888bccac38cc37e7291d65be8205f6548d24",
+      "identical": true
+    },
+    "rc11/SECURITY_ENVIRONMENT.json": {
+      "bytes": 2267,
+      "SHA256": "21d8a94512ea7402d8d55907c96d2c6b69ea8c93e9f33e043f1773bd7f83a4d7",
+      "sourceSHA256": "21d8a94512ea7402d8d55907c96d2c6b69ea8c93e9f33e043f1773bd7f83a4d7",
+      "identical": true
+    },
+    "rc11/REFERENCE_DEPENDENCIES.json": {
+      "bytes": 455,
+      "SHA256": "e52a8842975537d60a39fdfe7dd0b559889e0ea62e0fb61f1042643c35f094a2",
+      "sourceSHA256": "e52a8842975537d60a39fdfe7dd0b559889e0ea62e0fb61f1042643c35f094a2",
+      "identical": true
+    },
+    "rc11/PUBLISHED_SOURCE_STATIC_AUDIT.json": {
+      "bytes": 1618,
+      "SHA256": "3f962ffc324f1b0c026bb395bf74a40e1186b76392f9e89c911890ab532a3c12",
+      "sourceSHA256": "3f962ffc324f1b0c026bb395bf74a40e1186b76392f9e89c911890ab532a3c12",
+      "identical": true
+    },
+    "rc11/ACTION_MAPPING_COUNTEREXAMPLES.json": {
+      "bytes": 635685,
+      "SHA256": "024d7a480eaa142f7ce3089a30295d344708a43d95415d6f36246bf1086ac14a",
+      "sourceSHA256": "024d7a480eaa142f7ce3089a30295d344708a43d95415d6f36246bf1086ac14a",
+      "identical": true
+    },
+    "rc11/observation_patch.py": {
+      "bytes": 2027,
+      "SHA256": "3dc4b7d88c2753567f60e5553982842e7d7fcb1db03f9e7aee78adfa4e6c6fc6",
+      "sourceSHA256": "3dc4b7d88c2753567f60e5553982842e7d7fcb1db03f9e7aee78adfa4e6c6fc6",
+      "identical": true,
+      "usage": "immutable audit input; original paths/controller are not a Cloud runner"
+    },
+    "rc11/public_input.py": {
+      "bytes": 1976,
+      "SHA256": "245c8743ff0b013dd3d923fd03a08701caa0f34a27e8f7398f1b77610da54297",
+      "sourceSHA256": "245c8743ff0b013dd3d923fd03a08701caa0f34a27e8f7398f1b77610da54297",
+      "identical": true,
+      "usage": "immutable audit input; original paths/controller are not a Cloud runner"
+    },
+    "rc11/reference.py": {
+      "bytes": 4414,
+      "SHA256": "ab037f16a1600524b8d2c1008420ef467521baa991a216dec0f73e6d95379142",
+      "sourceSHA256": "ab037f16a1600524b8d2c1008420ef467521baa991a216dec0f73e6d95379142",
+      "identical": true,
+      "usage": "immutable audit input; original paths/controller are not a Cloud runner"
+    },
+    "rc11/public_feature_assertions.py": {
+      "bytes": 3119,
+      "SHA256": "f87f06e0ac4a02aa59da22c515a8c706230adfc68eb0e01f1de1618e38bc2d2f",
+      "sourceSHA256": "f87f06e0ac4a02aa59da22c515a8c706230adfc68eb0e01f1de1618e38bc2d2f",
+      "identical": true,
+      "usage": "immutable audit input; original paths/controller are not a Cloud runner"
+    },
+    "rc11/action_protocol.cjs": {
+      "bytes": 1284,
+      "SHA256": "3c2bc1d836790446eeb3df0f945ccb921c6cc157f1ddb1c94089fe08b0c78cb8",
+      "sourceSHA256": "3c2bc1d836790446eeb3df0f945ccb921c6cc157f1ddb1c94089fe08b0c78cb8",
+      "identical": true,
+      "usage": "immutable audit input; original paths/controller are not a Cloud runner"
+    },
+    "rc11/public_action_assertions.cjs": {
+      "bytes": 1234,
+      "SHA256": "609a36e570706d23132366643f41b03f6437541f71156137f1576ca9736d32ea",
+      "sourceSHA256": "609a36e570706d23132366643f41b03f6437541f71156137f1576ca9736d32ea",
+      "identical": true,
+      "usage": "immutable audit input; original paths/controller are not a Cloud runner"
+    },
+    "upstream_source.tar.gz": {
+      "bytes": 5602514,
+      "SHA256": "538385e51640bb8e366419e0271f482458847b766639c04d5d3c09a4ab4451d8",
+      "sourceCommit": "6ebe65a14a0bfe6140df9f231e7bf4a340c94f34",
+      "members": 229,
+      "safeRelativeRegularPathsOnly": true
+    }
+  },
+  "checkpointManifest": "CHECKPOINT_MANIFEST.json",
+  "variantContract": "OWNER_RESOLVED_STRICT_UNKNOWN54_IMPLEMENTATION_NOT_RUN",
+  "sourceArchivedAtPinnedCommit": true,
+  "weightsNotDistributed": true,
+  "productionFilesIncluded": false,
+  "remoteResearchRepo": "https://github.com/flyfishrh/gd",
+  "cloudENV_ID": "NOT VERIFIED"
+}

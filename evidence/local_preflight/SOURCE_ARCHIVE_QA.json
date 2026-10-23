@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "pinned committed source archive, not an imported/installed engine",
+  "modelsParseCLIHashes": [
+    {
+      "member": "guandan_rlcard/baselines/perfectdan/models.py",
+      "SHA256": "e367d16cb7ba1f3952139e927c4f819cd66e0a8b555b47c913dc771baac6df82",
+      "equalRC11Manifest": true
+    },
+    {
+      "member": "guandan_rlcard/baselines/perfectdan/ppo_agent.py",
+      "SHA256": "fc30d62edbb638394cef1d79734148e265328bd994c722195fb48481e62b176d",
+      "equalRC11Manifest": true
+    },
+    {
+      "member": "guandan_rlcard/baselines/perfectdan/evaluate_guandan_ppo.py",
+      "SHA256": "b24cebd639eace650436b1407445c1f4107ebf3b360ae1f05fc4a043c474158e",
+      "equalRC11Manifest": true
+    }
+  ]
+}

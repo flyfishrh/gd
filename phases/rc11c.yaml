@@ -1,0 +1,26 @@
+id: AI_V2_1X_RC1_1_C
+status: BLOCKED
+stage: LOCAL_PREPARATION_ONLY
+contract: OWNER_CONTRACT.md
+allowed: [research_inputs, official_security_audit, cloud_preflight, conditional_bounded_inference, research_evidence]
+protected: [production_game, Core, Rules, AI_V1, Save, CardID, UI, FinalArt, audio, fonts, signing, formal_holdout, historical_RC1_1]
+current_blockers: [CLOUD_ENV_ID_NOT_VERIFIED, PATCHED_RUNTIME_AND_NETWORK_GATES_NOT_RUN]
+preparation_wall_seconds: 1800
+experiment_active_seconds: 1800
+model_workers: 1
+numeric_threads: 2
+RSS_cap_bytes: 4000000000
+upstream_complete_match_cap: 16
+source_groups: 2
+team_directions: 2
+variants: [R0, R1, R2, R3]
+training: prohibited
+production_adoption: NOT_AUTHORIZED
+parent_owner_acceptance: retained_without_new_production_read_or_validation
+no_next_phase: true
+
+owner_repository: https://github.com/flyfishrh/gd
+owner_unknown54: STRICT_R0_ALL_VARIANTS
+strict_unknown54_implementation: REFERENCE_ONLY_PASS_NEURAL_NOT_RUN
+
+preparation_extension_01: OWNER_APPROVED_1800_SECONDS

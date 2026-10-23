@@ -1,0 +1,11 @@
+{
+  "recordedUTC": "2026-10-23T08:11:59.585059+00:00",
+  "source": "explicit user reply in current chat",
+  "repository": "https://github.com/flyfishrh/gd",
+  "unknown54": "STRICT_R0_ALL_VARIANTS",
+  "R1_R3_HR": "only other observation blocks; unknown54 excluded",
+  "implementation": "NOT IMPLEMENTED",
+  "historicalPatchAndGoldens": "UNCHANGED",
+  "additionalPreparationBudget": "PENDING_EXPLICIT_APPROVAL",
+  "experimentStarted": false
+}

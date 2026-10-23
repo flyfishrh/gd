@@ -1,0 +1,142 @@
+{
+  "format": "tar-gzip split base64 ASCII; no model weights",
+  "compressedBytes": 214924,
+  "compressedSHA256": "1729cce69b0de5503c4961741a1b9ebe76edc842c2ed545795b3ab455b1dfc33",
+  "parts": [
+    {
+      "path": "transport/rc11.bundle.part000.b64",
+      "bytes": 20000,
+      "SHA256": "5a16b9f827249950cab59a758e853364bae40f592ab93c1317ad0d48a4d7b598"
+    },
+    {
+      "path": "transport/rc11.bundle.part001.b64",
+      "bytes": 20000,
+      "SHA256": "5a15329c1e8eb4a8c86cb727c5024daa235268176908889b6c399af127aaeb8b"
+    },
+    {
+      "path": "transport/rc11.bundle.part002.b64",
+      "bytes": 20000,
+      "SHA256": "8ea0c4f0d6f173abce0098634e47e7389d4ea899120c99b26f217e526a870f00"
+    },
+    {
+      "path": "transport/rc11.bundle.part003.b64",
+      "bytes": 20000,
+      "SHA256": "f205e3e776db68f16686419073744e401546d86dca128122eabe46326c143713"
+    },
+    {
+      "path": "transport/rc11.bundle.part004.b64",
+      "bytes": 20000,
+      "SHA256": "6a8006f26ceab215b181cc8cc45bc6f6f3a660e0fd4e8d6e0ed7b515b49c5fe5"
+    },
+    {
+      "path": "transport/rc11.bundle.part005.b64",
+      "bytes": 20000,
+      "SHA256": "0411b4039f67fd06ef69323795400f7eb1b8af7e0d1f13bd8d3d8a16fcfb9fc7"
+    },
+    {
+      "path": "transport/rc11.bundle.part006.b64",
+      "bytes": 20000,
+      "SHA256": "1533e930d647366d8a1d4f5d1f8677a4f6b803b6e92202600b45a837cf8c4ade"
+    },
+    {
+      "path": "transport/rc11.bundle.part007.b64",
+      "bytes": 20000,
+      "SHA256": "fb48cb20b065ac724988e9fa22a6dbcbea89f233860129789b8b3d577c76308d"
+    },
+    {
+      "path": "transport/rc11.bundle.part008.b64",
+      "bytes": 20000,
+      "SHA256": "460cb07017f0c069f0207b6f0559e2c84852c95c739d5c715f9da89a6e3546bc"
+    },
+    {
+      "path": "transport/rc11.bundle.part009.b64",
+      "bytes": 20000,
+      "SHA256": "2ad183704ffa2a75e3654902ce3752d3f7fdb04ec9ab287efc248d4c08df4a6a"
+    },
+    {
+      "path": "transport/rc11.bundle.part010.b64",
+      "bytes": 20000,
+      "SHA256": "70d450bf7ad745a5f36aa8783091e3cfa9490dd89c17ae2a5cebfa28902a4e54"
+    },
+    {
+      "path": "transport/rc11.bundle.part011.b64",
+      "bytes": 20000,
+      "SHA256": "59afece84cfb63570dc72f3beebd410227ed1c8d69c5db07c80b33e43e5e4248"
+    },
+    {
+      "path": "transport/rc11.bundle.part012.b64",
+      "bytes": 20000,
+      "SHA256": "84ac963516d206f4ecaa8b689f0d0b566287bbb291f671b6bd2666aac45f09f4"
+    },
+    {
+      "path": "transport/rc11.bundle.part013.b64",
+      "bytes": 20000,
+      "SHA256": "803ed789f98385357c32475569bc8bb7c838f154b92c4b7bf64880ea5c2989ee"
+    },
+    {
+      "path": "transport/rc11.bundle.part014.b64",
+      "bytes": 6568,
+      "SHA256": "0b8024a50452d12de437d673f0bf70cc2f451ba9a1f99f98a1c6f03aa9defe42"
+    }
+  ],
+  "files": {
+    "rc11/ACTION_MAPPING_COUNTEREXAMPLES.json": {
+      "bytes": 635685,
+      "SHA256": "024d7a480eaa142f7ce3089a30295d344708a43d95415d6f36246bf1086ac14a"
+    },
+    "rc11/FEATURE_CONTRACT.json": {
+      "bytes": 2308212,
+      "SHA256": "d4a6e0caf2777dec2903eb6f3341139f1805b1cd9ed4833f13e2d30cb54e04ee"
+    },
+    "rc11/GOLDEN_PUBLIC_CASES.json": {
+      "bytes": 2297313,
+      "SHA256": "ac63331893208cf61b0af8ec0029888bccac38cc37e7291d65be8205f6548d24"
+    },
+    "rc11/OBSERVATION_PATCHES.diff": {
+      "bytes": 2163,
+      "SHA256": "9197337e06a7923dd314dc93abb1c8e9096bd2cf0d3fd0387800f7b40d376393"
+    },
+    "rc11/PUBLISHED_SOURCE_STATIC_AUDIT.json": {
+      "bytes": 1618,
+      "SHA256": "3f962ffc324f1b0c026bb395bf74a40e1186b76392f9e89c911890ab532a3c12"
+    },
+    "rc11/QA_REPORT.md": {
+      "bytes": 4574,
+      "SHA256": "d11cf7933a5d790c3099ce616a328215fa47c01107c55a3fa612e0c1eab5bcda"
+    },
+    "rc11/REFERENCE_DEPENDENCIES.json": {
+      "bytes": 455,
+      "SHA256": "e52a8842975537d60a39fdfe7dd0b559889e0ea62e0fb61f1042643c35f094a2"
+    },
+    "rc11/SECURITY_ENVIRONMENT.json": {
+      "bytes": 2267,
+      "SHA256": "21d8a94512ea7402d8d55907c96d2c6b69ea8c93e9f33e043f1773bd7f83a4d7"
+    },
+    "rc11/action_protocol.cjs": {
+      "bytes": 1284,
+      "SHA256": "3c2bc1d836790446eeb3df0f945ccb921c6cc157f1ddb1c94089fe08b0c78cb8"
+    },
+    "rc11/observation_patch.py": {
+      "bytes": 2027,
+      "SHA256": "3dc4b7d88c2753567f60e5553982842e7d7fcb1db03f9e7aee78adfa4e6c6fc6"
+    },
+    "rc11/public_action_assertions.cjs": {
+      "bytes": 1234,
+      "SHA256": "609a36e570706d23132366643f41b03f6437541f71156137f1576ca9736d32ea"
+    },
+    "rc11/public_feature_assertions.py": {
+      "bytes": 3119,
+      "SHA256": "f87f06e0ac4a02aa59da22c515a8c706230adfc68eb0e01f1de1618e38bc2d2f"
+    },
+    "rc11/public_input.py": {
+      "bytes": 1976,
+      "SHA256": "245c8743ff0b013dd3d923fd03a08701caa0f34a27e8f7398f1b77610da54297"
+    },
+    "rc11/reference.py": {
+      "bytes": 4414,
+      "SHA256": "ab037f16a1600524b8d2c1008420ef467521baa991a216dec0f73e6d95379142"
+    }
+  },
+  "originalGoldens": 26,
+  "source": "Original immutable RC1.1 public research inputs; no production files"
+}

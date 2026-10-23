@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "sourceHEAD": "6ebe65a14a0bfe6140df9f231e7bf4a340c94f34",
+  "releaseTagCommit": "42f83aa8d84c0047473e069244e07db0c02af420",
+  "checkpointBytes": 73039243,
+  "checkpointSHA256": "2ab758e44da01498be4a7537f9222efbcdf32e1a7b2ebd40a0a90263998551bb",
+  "officialSource": "https://github.com/Choysang/rlcard-guandan",
+  "checkpointURL": "https://github.com/Choysang/rlcard-guandan/releases/download/v0.1.0/final_checkpoint.pt.perfectdan_final_checkpoint.pt.pt",
+  "localHashOnly": true,
+  "deserialized": false,
+  "checkpointIncludedInRepoOrHandoff": false
+}

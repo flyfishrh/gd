@@ -1,0 +1,313 @@
+{
+  "status": "BLOCKED",
+  "checkedUTC": "2026-10-23T07:40:24.593610+00:00",
+  "twoMandatoryAdvisories": [
+    {
+      "ghsa_id": "GHSA-53q9-r3pm-6pq6",
+      "cve_id": "CVE-2025-32434",
+      "published_at": "2025-04-18T15:19:28Z",
+      "updated_at": "2025-08-29T19:45:47Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "torch"
+          },
+          "vulnerable_version_range": "< 2.6.0",
+          "first_patched_version": "2.6.0",
+          "vulnerable_functions": []
+        }
+      ],
+      "html_url": "https://github.com/advisories/GHSA-53q9-r3pm-6pq6"
+    },
+    {
+      "ghsa_id": "GHSA-63cw-57p8-fm3p",
+      "cve_id": "CVE-2026-24747",
+      "published_at": "2026-01-27T20:10:54Z",
+      "updated_at": "2026-01-29T03:42:53Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "pytorch"
+          },
+          "vulnerable_version_range": "< 2.10.0",
+          "first_patched_version": "2.10.0",
+          "vulnerable_functions": []
+        }
+      ],
+      "html_url": "https://github.com/advisories/GHSA-63cw-57p8-fm3p"
+    }
+  ],
+  "additionalTorchPackageQuery": {
+    "returned": 13,
+    "records": [
+      {
+        "ghsa_id": "GHSA-53q9-r3pm-6pq6",
+        "summary": "PyTorch: `torch.load` with `weights_only=True` leads to remote code execution",
+        "published_at": "2025-04-18T15:19:28Z",
+        "updated_at": "2025-08-29T19:45:47Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "< 2.6.0",
+            "first_patched_version": "2.6.0",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-53q9-r3pm-6pq6"
+      },
+      {
+        "ghsa_id": "GHSA-887c-mr87-cxwp",
+        "summary": "PyTorch Improper Resource Shutdown or Release vulnerability",
+        "published_at": "2025-04-16T21:30:59Z",
+        "updated_at": "2025-09-02T15:23:02Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "<= 2.7.1",
+            "first_patched_version": "2.8.0",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-887c-mr87-cxwp"
+      },
+      {
+        "ghsa_id": "GHSA-qfhq-4f3w-5fph",
+        "summary": "PyTorch is vulnerable to memory corruption through its torch.lstm_cell function",
+        "published_at": "2025-03-31T18:31:08Z",
+        "updated_at": "2026-06-10T18:02:49Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "< 2.10.0",
+            "first_patched_version": "2.10.0",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-qfhq-4f3w-5fph"
+      },
+      {
+        "ghsa_id": "GHSA-vgrw-7cvw-pwgx",
+        "summary": "PyTorch is vulnerable to memory corruption through its unpack_sequence function",
+        "published_at": "2025-03-31T15:30:48Z",
+        "updated_at": "2026-06-10T17:25:21Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "< 2.9.1",
+            "first_patched_version": "2.9.1",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-vgrw-7cvw-pwgx"
+      },
+      {
+        "ghsa_id": "GHSA-rrmf-rvhw-rf47",
+        "summary": "PyTorch is vulnerable to memory corruption through its torch.jit.script function",
+        "published_at": "2025-03-31T15:30:48Z",
+        "updated_at": "2026-07-17T17:05:49Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "<= 2.12.1",
+            "first_patched_version": "2.13.0",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-rrmf-rvhw-rf47"
+      },
+      {
+        "ghsa_id": "GHSA-f4hp-rmr7-r7v8",
+        "summary": "PyTorch is Vulnerable to Memory Consumption through pad_packed_sequence Function",
+        "published_at": "2025-03-31T15:30:48Z",
+        "updated_at": "2026-06-09T21:56:31Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "<= 2.6.0",
+            "first_patched_version": null,
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-f4hp-rmr7-r7v8"
+      },
+      {
+        "ghsa_id": "GHSA-3749-ghw9-m3mg",
+        "summary": "PyTorch susceptible to local Denial of Service",
+        "published_at": "2025-03-30T18:30:24Z",
+        "updated_at": "2026-06-08T19:50:13Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "< 2.7.1-rc1",
+            "first_patched_version": "2.7.1-rc1",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-3749-ghw9-m3mg"
+      },
+      {
+        "ghsa_id": "GHSA-4vmg-rw8f-92f9",
+        "summary": "Withdrawn Advisory: PyTorch deserialization vulnerability",
+        "published_at": "2025-03-20T12:32:46Z",
+        "updated_at": "2025-04-02T13:31:16Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "<= 2.3.1",
+            "first_patched_version": null,
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-4vmg-rw8f-92f9"
+      },
+      {
+        "ghsa_id": "GHSA-x3gm-94wq-g975",
+        "summary": "PyTorch: Manipulation of the argument scale/zero_point leads to improper initialization via Quantized Sigmoid Module",
+        "published_at": "2025-03-10T15:30:47Z",
+        "updated_at": "2026-06-09T21:57:48Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "<= 2.6.0",
+            "first_patched_version": null,
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-x3gm-94wq-g975"
+      },
+      {
+        "ghsa_id": "GHSA-c678-jfcj-6jmf",
+        "summary": "PyTorch Tuple Handler is Vulnerable to Memory Corruption through Manipulation of None Argument",
+        "published_at": "2025-03-10T12:30:55Z",
+        "updated_at": "2026-06-09T21:06:55Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "<= 2.6.0",
+            "first_patched_version": null,
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-c678-jfcj-6jmf"
+      },
+      {
+        "ghsa_id": "GHSA-5pcm-hx3q-hm94",
+        "summary": "PyTorch heap buffer overflow vulnerability",
+        "published_at": "2024-04-17T21:30:48Z",
+        "updated_at": "2025-06-11T13:39:31Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "< 2.2.0",
+            "first_patched_version": "2.2.0",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-5pcm-hx3q-hm94"
+      },
+      {
+        "ghsa_id": "GHSA-pg7h-5qx3-wjr3",
+        "summary": "Pytorch use-after-free vulnerability",
+        "published_at": "2024-04-17T21:30:48Z",
+        "updated_at": "2025-06-10T14:52:03Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "< 2.2.0",
+            "first_patched_version": "2.2.0",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-pg7h-5qx3-wjr3"
+      },
+      {
+        "ghsa_id": "GHSA-47fc-vmwq-366v",
+        "summary": "PyTorch vulnerable to arbitrary code execution",
+        "published_at": "2022-11-26T03:30:27Z",
+        "updated_at": "2024-11-13T22:52:23Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "torch"
+            },
+            "vulnerable_version_range": "<= 1.13.0",
+            "first_patched_version": "1.13.1",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-47fc-vmwq-366v"
+      }
+    ],
+    "scope": "one official GitHub Advisory Database page max100; not perpetual or exhaustive safety proof"
+  },
+  "installedPatchedRuntime": "NOT ESTABLISHED",
+  "cloudNetworkEnforcement": "NOT TESTED",
+  "noWeightsOnlyFalse": true,
+  "safeGlobalsExpanded": false,
+  "noModelLoadDuringPreparation": true,
+  "additionalPyTorchAliasQuery": {
+    "returned": 1,
+    "records": [
+      {
+        "ghsa_id": "GHSA-63cw-57p8-fm3p",
+        "summary": "PyTorch Vulnerable to Remote Code Execution via Untrusted Checkpoint Files",
+        "published_at": "2026-01-27T20:10:54Z",
+        "updated_at": "2026-01-29T03:42:53Z",
+        "vulnerabilities": [
+          {
+            "package": {
+              "ecosystem": "pip",
+              "name": "pytorch"
+            },
+            "vulnerable_version_range": "< 2.10.0",
+            "first_patched_version": "2.10.0",
+            "vulnerable_functions": []
+          }
+        ],
+        "html_url": "https://github.com/advisories/GHSA-63cw-57p8-fm3p"
+      }
+    ],
+    "paginationLink": null,
+    "reason": "torch and pytorch package aliases both checked; two mandatory advisories fetched separately"
+  },
+  "latestCandidateOnly": "PyPI2.14.1 metadata captured, not installed or selected for an unverified cloud platform; runtime and dependency gates remain BLOCKED"
+}

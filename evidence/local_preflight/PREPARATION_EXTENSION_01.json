@@ -1,0 +1,12 @@
+{
+  "authorization": "explicit user reply: 批准追加准备预算",
+  "startUTC": "2026-10-23T08:33:16.298945+00:00",
+  "startEpoch": 1792744396.298945,
+  "additionalPreparationWallSeconds": 1800,
+  "deadlineUTC": "2026-10-23T09:03:16.298945+00:00",
+  "originalStartUnchanged": true,
+  "experimentActiveSecondsCap": 1800,
+  "matchCap": 16,
+  "ENV_ID": "OWNER_PROVIDED_ENV_ID_NOT_PUBLISHED",
+  "repository": "https://github.com/flyfishrh/gd"
+}
