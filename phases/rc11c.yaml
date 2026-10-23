@@ -4,7 +4,7 @@ stage: LOCAL_PREPARATION_ONLY
 contract: OWNER_CONTRACT.md
 allowed: [research_inputs, official_security_audit, cloud_preflight, conditional_bounded_inference, research_evidence]
 protected: [production_game, Core, Rules, AI_V1, Save, CardID, UI, FinalArt, audio, fonts, signing, formal_holdout, historical_RC1_1]
-current_blockers: [CLOUD_ENV_ID_NOT_VERIFIED, PATCHED_RUNTIME_AND_NETWORK_GATES_NOT_RUN]
+current_blockers: [VALID_CLOUD_ENV_ID_OR_AUTHENTICATED_ENVIRONMENT_NOT_AVAILABLE, PATCHED_RUNTIME_AND_NETWORK_GATES_NOT_RUN]
 preparation_wall_seconds: 1800
 experiment_active_seconds: 1800
 model_workers: 1

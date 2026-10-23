@@ -1,6 +1,6 @@
 # RC1.1-C — instructions after actual research environment selection
 
-First verify this is the selected independent research repository and actual Cloud execution environment. Read OWNER_CONTRACT.md, AGENTS.md, phases/rc11c.yaml, README.md and evidence/INPUT_MANIFEST.json. The existing evidence describes LOCAL PREFLIGHT ONLY, not Cloud results. Preserve it; write new actual Cloud evidence separately with its real environment identity and execution timestamps.
+First verify this is the selected independent research repository and actual Cloud execution environment. Read OWNER_CONTRACT.md, AGENTS.md, phases/rc11c.yaml, README.md and evidence/local_preflight/INPUT_MANIFEST.json. The existing evidence describes LOCAL PREFLIGHT ONLY, not Cloud results. Preserve it; write new actual Cloud evidence separately with its real environment identity and execution timestamps.
 
 The local tools/preflight.py references sibling historical-input paths and macOS sysctl. Do not run it in Cloud or traverse out of this repository. Use only the transferred original public inputs and fixed source archive; do not access any production repository or reproduce5491 local production tests.
 

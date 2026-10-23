@@ -13,12 +13,10 @@ Owner2026-10-23 authorizes an independent research experiment on the existing pi
 9. Required evidence: CLOUD_ENVIRONMENT.json, SECURITY_GATE.md, DEPENDENCIES_LOCK.txt, INPUT_MANIFEST.json, CHECKPOINT_LOAD_QA.json, GOLDEN_MODEL_RESULTS.json, ABLATION_RESULTS.json, UPSTREAM_MATCH_RESULTS.json, RESOURCE_ACCOUNTING.json, QA_REPORT.md; preserve commands/logs/exits/failures/SHA. Security Environment PASS/BLOCKED; Real Model Load PASS/FAIL/NOT RUN; Feature Ablation COMPLETE/PARTIAL/NOT RUN; Training UNVERIFIED; Target protocol NOT READY; V1 NOT RUN; Native NOT TESTED; Production adoption NOT AUTHORIZED. No claim of5491 Cloud production tests in this research repository.
 10. Historical local RC1.1 BLOCKED remains unchanged; Cloud results are new independent evidence. Parent Phase12A-R2 Owner acceptance and production V1/Core/Save/UI remain unchanged. No V2.2/Phase12B/production bridge. Submit auditable results and stop without expanding the experiment.
 
-## Owner clarification — 2026-10-23
+## Owner clarification and approved continuation — 2026-10-23
 
-The Owner named GitHub repository gd, resolved via authenticated metadata to https://github.com/flyfishrh/gd. The Owner explicitly requires unknown54 to remain R0 in all variants; R1/R3 HR corrections apply only to other observation blocks. Original RC1.1 patches/goldens remain immutable. A new implementation has not yet been created.
+Owner selected https://github.com/flyfishrh/gd and explicitly froze unknown54 at R0 in every variant. R1/R3 HR correction may affect only other observation blocks. Original RC1.1 patches/goldens remain immutable. The new strict helper passed 26 original public states x4 variants using NumPy/source-AST only, including unchanged unknown54, tail129, action features, retained indices and grouping; neural validation remains NOT RUN.
 
-The Cloud ENV_ID remains unverified. The original preparation wall deadline elapsed while awaiting clarification. START.json remains unchanged; additional finite preparation budget is pending. No model or experiment has started.
+Owner explicitly approved one additional preparation window of at most 1800 seconds; preserve original START.json and the actual extension start/deadline. Experiment remains one separate 1800-active-second batch, at most16 Matches, not started.
 
-## Approved continuation
-
-Owner explicitly approved an additional preparation window of at most 1800 seconds. Preserve the original START.json. See PREPARATION_EXTENSION_01.json for actual start/deadline. Owner supplied ENV_ID OWNER_PROVIDED_ENV_ID_NOT_PUBLISHED. It has not yet been verified: CLI query returned no cloud environments available for this workspace. No actual Cloud execution is claimed. Strict unknown54 reference validation passed 26 original public states x4 variants using NumPy/source-AST only, with no Torch import or model load.
+Owner withdrew the previously supplied runtime-instance identifier as not being a Cloud CLI ENV_ID. Do not reuse or publish that identifier. No valid CLI ENV_ID or environment URL is available. CLI list/submission returned no cloud environments available for this workspace, which does not establish the root cause. The only browser exposed to this task reached a login page. No successful Cloud task or runtime exists in this evidence.

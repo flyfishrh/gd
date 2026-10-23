@@ -36,6 +36,7 @@ def run():
         base_parsed = base_agent.parse(dto)
         base_features, base_indices = base_agent.state_encoder.create_action_features(
             base_parsed, base_parsed['actionList'])
+        base_groups = base_agent.abstract_action_space(base_parsed['actionList'])
         for variant in ('R0', 'R1', 'R2', 'R3'):
             expected = vectors[variant].copy()
             expected[54:108] = vectors['R0'][54:108]
@@ -53,6 +54,7 @@ def run():
             features, indices = agent.state_encoder.create_action_features(
                 parsed, parsed['actionList'])
             assert indices == base_indices
+            assert agent.abstract_action_space(parsed['actionList']) == base_groups
             assert len(features) == len(base_features)
             assert all(np.array_equal(a.data, b.data)
                        for a, b in zip(features, base_features))
@@ -64,7 +66,8 @@ def run():
                                                 enumerate(expected) if v},
                             'unknown54IdenticalR0': True,
                             'tail129IdenticalR0': True,
-                            'actionFeaturesAndIndicesIdenticalR0': True})
+                            'actionFeaturesAndIndicesIdenticalR0': True,
+                            'actionGroupingIdenticalR0': True})
     assert 'torch' not in sys.modules, 'NEURAL_RUNTIME_MUST_NOT_BE_IMPORTED'
     result = {'status': 'PASS', 'scope': 'NumPy reference only; no neural logits/actions',
               'originalGoldenSHA256': hashlib.sha256(source.read_bytes()).hexdigest(),
